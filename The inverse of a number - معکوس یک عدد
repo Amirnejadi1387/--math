@@ -1,0 +1,16 @@
+#include <stdio.h>
+int main(){
+long int add,a,varoo=0,remain;
+printf("enter the number\n");
+scanf("%d",&add);
+if(add<10){
+Printf("varoon add %d mishvad %d",add,add);
+}else{
+a=add;
+while(a>0){
+remain=a%10;
+a/=10;
+varoon=varoon×10+remain;
+}
+primtf("varoon add %d mishavad %d",add,varoon);
+}
