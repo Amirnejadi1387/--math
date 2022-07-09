@@ -1,0 +1,15 @@
+#include <stdio.h>
+int main(){
+long int a,b,c,d;
+int n;
+printf("How many small cubes are there on one side of a cube\n");
+scanf("%d",&n);
+a=((n-2)×(n-2))×6;
+b=(n-2)×12;
+c=8;
+d=(n-2)×(n-2)×(n-2);
+printf("The number of cubes with only one face painted\n",a);
+printf("The number of cubes that have only two sides painted\n",b);
+printf("The number of cubes with only three faces painted\n",c);
+Printf("The number of cubes that just no Their faces are painted\n",d);
+}
