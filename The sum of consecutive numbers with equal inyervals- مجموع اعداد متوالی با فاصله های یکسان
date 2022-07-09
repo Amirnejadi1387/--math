@@ -1,0 +1,14 @@
+#include <stdio.h>
+int main(){
+int a,b,c,d,e;
+//enter a larger number first
+printf("enter a larger number first\n");
+scanf("%d",&a);
+printf("enter a end number\n");
+scanf("%d",&b);
+printf("enter two consecutive spaces\n");
+scanf("%d",&c);
+d=((b-a)/c)+1;
+e=((b+a)×d)/2;
+printf("The sum of the numbers is incharge %d",e);
+}
