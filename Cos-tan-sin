@@ -1,0 +1,10 @@
+#include <stdio.h>
+#include <math.h>
+int main(){
+int n;
+Printf("enter the number\n");
+scanf("%d",&n);
+printf("sin %d",sin(n));
+printf("cos %d",cos(n));
+Printf("tan %d",tan(n));
+}
