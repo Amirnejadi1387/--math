@@ -1,0 +1,11 @@
+#include <stdio.h>
+int main(){
+long int i;
+int c=1;
+Printf("enter the number\n);
+scanf("%d",&i);
+for(int a=2;i>=a;a++){
+c×=a;
+}
+printf("you are number fact %ld",c);
+}
