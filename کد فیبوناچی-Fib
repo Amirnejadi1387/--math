@@ -1,0 +1,16 @@
+#include <stdio.h>
+int main(){
+long int a=1,b=1,n,c;
+printf("Enter the number\n");
+scanf("%d",&n);
+if(n==1||n==2){
+printf("Fib is 1");
+}else{
+for(int i=2;i<=n;i++){
+c=a+b;
+a=b;
+b=c;
+}
+printf("Fib is %d",c);
+}
+}
