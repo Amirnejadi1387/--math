@@ -1,0 +1,24 @@
+#include <stdio.h>
+int main(){
+int s,p,h,n,v,a,b,c,d,e;
+printf("Enter the area of the prism\n");
+scanf("%d",&s);
+printf("Enter the height of prism\n");
+scanf("%d",&h);
+printf("Enter the prism environment\n");
+scanf("%d",&p);
+printf("The charter is multifacted\n");
+scanf("%d",&n);
+v=s×h;
+e=p×h;
+a=2×n;
+b=3×n;
+c = 2 ;
+d = n + 2 ;
+printf("%d is the volume of the charter\n",v);
+printf("%d is the lateral area\n",e);
+printf("%d number of vertices of the charter\n",a);
+printf("%d the number of edges \n",b);
+printf("%d is the number of funds\n);
+printf("%d the number of rules of the charter \n",c);
+}
