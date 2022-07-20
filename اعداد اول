@@ -1,0 +1,20 @@
+#include <stdio.h>
+#include <math.h>
+int main(){
+int add;
+int primesw=1;
+printf("enter the number\n");
+scanf("%d",&add);
+for(int i=2;i<=sqrt(add);i++){
+if(add%i==0)
+primesw=0;
+break;
+}
+}
+if(primesw==1){
+printf("add aval ast");
+}else{
+printf("add aval nist");
+}
+return 0;
+}
