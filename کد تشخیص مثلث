@@ -1,0 +1,12 @@
+#include <stdio.h>
+int x,y,z;
+printf("enter x and y\n");
+scanf("%d%d",&x,&y);
+z=x+y;
+if(x+y>z&&x+z>y&&y+z>x){
+printf("yes");
+}else{
+printf("no!");
+}
+retrun 0;
+}
