@@ -2,7 +2,7 @@
 int main (){
 int x,y,a,b,lcm;
 printf("enter the number\n");
-scanf("%d",&x,&y);
+scanf("%d%d",&x,&y);
 if(x==0&&y==0){
 printf("Bmm is 0 and Kmm is 0");
 }else if(x==0){
@@ -19,6 +19,6 @@ x-=y;
 y-=x;
 }
 }
-lcm=(a×b)/x;
+lcm=(a*b)/x;
 printf("Bmm is %d and Kmm is %d",x,lcm);
 }
