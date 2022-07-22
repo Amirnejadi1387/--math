@@ -6,9 +6,11 @@ int primesw=1;
 printf("enter the number\n");
 scanf("%d",&add);
 for(int i=2;i<=sqrt(add);i++){
-if(add%i==0)
+if(add%i==0){
 primesw=0;
 break;
+}else{
+primesw=1;
 }
 }
 if(primesw==1){
